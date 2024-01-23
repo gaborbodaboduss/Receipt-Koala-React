@@ -191,12 +191,12 @@ const Home = (props) => {
               Everything you get with Receipt Koala
             </h2>
             <Highlight
-              Title="Easy Peasy"
-              Description="You'll have all your receipts and invoices for all your transactions and purchases in one place."
+              title="Easy Peasy"
+              description="You'll have all your receipts and invoices for all your transactions and purchases in one place."
             ></Highlight>
             <Highlight
-              Title="Quick identification"
-              Description="No more receipt hoarding and sorting"
+              title="Quick identification"
+              description="No more receipt hoarding and sorting"
             ></Highlight>
             <div className="home-explore1">
               <span>Explore pricing plans -&gt;</span>
@@ -231,9 +231,7 @@ const Home = (props) => {
           <div className="home-image1"></div>
         </div>
         <div className="home-section2">
-          <div className="home-image2">
-            <div className="home-image-overlay"></div>
-          </div>
+          <div className="home-image2"></div>
           <div className="home-content5">
             <h2 className="home-text020">
               <span>Benefits for everyone</span>
@@ -243,7 +241,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-banner">
+      <div id="Demo" className="home-banner">
         <h1 className="home-text023">
           <span>
             Begin your financial journey on
@@ -278,7 +276,7 @@ const Home = (props) => {
           </div>
         </Link>
       </div>
-      <div className="home-features">
+      <div id="Features" className="home-features">
         <div className="home-header2">
           <div className="home-tag">
             <span className="home-text031">Features</span>
@@ -299,47 +297,47 @@ const Home = (props) => {
         </div>
         <div className="home-feature-list">
           <Feature
-            Title="Effortless Digital Receipts: "
-            Description="Ditch paper clutter and embrace eco-friendly digital receipts with Receipt Koala."
+            title="Effortless Digital Receipts: "
+            description="Ditch paper clutter and embrace eco-friendly digital receipts with Receipt Koala."
           ></Feature>
           <Feature
-            Title="Eco-Friendly Shopping:"
-            Thumbnail="/vector6113-r6dl.svg"
-            Description="Join the green revolution by using Receipt Koala for paperless receipts."
+            title="Eco-Friendly Shopping:"
+            thumbnail="/vector6113-r6dl.svg"
+            description="Join the green revolution by using Receipt Koala for paperless receipts."
           ></Feature>
           <Feature
-            Title="Seamless Purchase Records: "
-            Thumbnail="/vector6113-6zj.svg"
-            Description="Keep your shopping history in one place with our user-friendly e-receipts."
+            title="Seamless Purchase Records: "
+            thumbnail="/vector6113-6zj.svg"
+            description="Keep your shopping history in one place with our user-friendly e-receipts."
           ></Feature>
           <Feature
-            Title="Instant Receipts, No Hassle: "
-            Thumbnail="/vector6113-lvvs.svg"
-            Description="Say goodbye to long paper receipts and hello to instant e-receipts in your app."
+            title="Instant Receipts, No Hassle: "
+            thumbnail="/vector6113-lvvs.svg"
+            description="Say goodbye to long paper receipts and hello to instant e-receipts in your app."
           ></Feature>
           <Feature
-            Title="Reduce Paper Waste:"
-            Thumbnail="/vector6114-cupp.svg"
-            Description="Contribute to saving trees and reducing waste with Receipt Koala's digital receipts."
+            title="Reduce Paper Waste:"
+            thumbnail="/vector6114-cupp.svg"
+            description="Contribute to saving trees and reducing waste with Receipt Koala's digital receipts."
           ></Feature>
           <Feature
-            Title="Shopping Simplified: "
-            Thumbnail="/vector6114-6m1e.svg"
-            Description="Make your shopping experience hassle-free with organized e-receipts at your fingertips."
+            title="Shopping Simplified: "
+            thumbnail="/vector6114-6m1e.svg"
+            description="Make your shopping experience hassle-free with organized e-receipts at your fingertips."
           ></Feature>
           <Feature
-            Title="Track Your Spending:"
-            Thumbnail="/vector6114-yjl.svg"
-            Description="Easily track and manage your expenses with Receipt Koala's digital receipt system."
+            title="Track Your Spending:"
+            thumbnail="/vector6114-yjl.svg"
+            description="Easily track and manage your expenses with Receipt Koala's digital receipt system."
           ></Feature>
           <Feature
-            Title="Eco-Conscious Shopping: "
-            Thumbnail="/vector6113-lvvs.svg"
-            Description="Choose Receipt Koala for a sustainable shopping experience without paper waste."
+            title="Eco-Conscious Shopping: "
+            thumbnail="/vector6113-lvvs.svg"
+            description="Choose Receipt Koala for a sustainable shopping experience without paper waste."
           ></Feature>
         </div>
       </div>
-      <div className="home-steps">
+      <div id="Steps" className="home-steps">
         <h1 className="home-text038">Discover Our Process</h1>
         <span className="home-text039">
           <span className="home-text040">
@@ -425,7 +423,7 @@ const Home = (props) => {
           </div>
         </div>
       </div>
-      <div className="home-pricing">
+      <div id="Pricing" className="home-pricing">
         <div className="home-content6">
           <div className="home-header3">
             <div className="home-tag1">
@@ -457,11 +455,11 @@ const Home = (props) => {
                 <div className="home-bottom">
                   <div className="home-check-list">
                     <Check></Check>
-                    <Check Feature="Cutstom interactive receipts"></Check>
-                    <Check Feature="Receipt delivery business customers"></Check>
-                    <Check Feature="'No print' functionality"></Check>
-                    <Check Feature="Receipt Delivery for virtual cards"></Check>
-                    <Check Feature="Analytics, insights, reports and analysis"></Check>
+                    <Check feature="Cutstom interactive receipts"></Check>
+                    <Check feature="Receipt delivery business customers"></Check>
+                    <Check feature="'No print' functionality"></Check>
+                    <Check feature="Receipt Delivery for virtual cards"></Check>
+                    <Check feature="Analytics, insights, reports and analysis"></Check>
                   </div>
                   <div className="home-button">
                     <span className="home-text060">Get Standard</span>
@@ -487,12 +485,12 @@ const Home = (props) => {
                 </span>
                 <div className="home-bottom1">
                   <div className="home-check-list01">
-                    <Check Feature="Your own Merchant channel in the Receipt Koala "></Check>
-                    <Check Feature="Digital stampcards"></Check>
-                    <Check Feature="Coupons"></Check>
-                    <Check Feature="Rewards"></Check>
-                    <Check Feature="Feedback / polls on digital receipts"></Check>
-                    <Check Feature="Analytics, insights, reports and analysis"></Check>
+                    <Check feature="Your own Merchant channel in the Receipt Koala "></Check>
+                    <Check feature="Digital stampcards"></Check>
+                    <Check feature="Coupons"></Check>
+                    <Check feature="Rewards"></Check>
+                    <Check feature="Feedback / polls on digital receipts"></Check>
+                    <Check feature="Analytics, insights, reports and analysis"></Check>
                   </div>
                   <div className="home-button1">
                     <span className="home-text066">Get Plus</span>
@@ -518,10 +516,10 @@ const Home = (props) => {
                 </span>
                 <div className="home-bottom2">
                   <div className="home-check-list02">
-                    <Check Feature="Integrations to Customer Data Platforms"></Check>
-                    <Check Feature="Receipt API for Merchant own applications and system"></Check>
-                    <Check Feature="Digital loyalty &amp; employee cards in Koala app"></Check>
-                    <Check Feature="Analytics, insights, reports and analysis"></Check>
+                    <Check feature="Integrations to Customer Data Platforms"></Check>
+                    <Check feature="Receipt API for Merchant own applications and system"></Check>
+                    <Check feature="Digital loyalty &amp; employee cards in Koala app"></Check>
+                    <Check feature="Analytics, insights, reports and analysis"></Check>
                   </div>
                   <div className="home-button2">
                     <span className="home-text072">Get Premium</span>
@@ -595,11 +593,11 @@ const Home = (props) => {
                 <div className="home-check-list04">
                   <div className="home-check-list05">
                     <Check></Check>
-                    <Check Feature="Cutstom interactive receipts"></Check>
-                    <Check Feature="Receipt delivery business customers"></Check>
-                    <Check Feature="'No print' functionality"></Check>
-                    <Check Feature="Receipt Delivery for virtual cards"></Check>
-                    <Check Feature="Analytics, insights, reports and analysis"></Check>
+                    <Check feature="Cutstom interactive receipts"></Check>
+                    <Check feature="Receipt delivery business customers"></Check>
+                    <Check feature="'No print' functionality"></Check>
+                    <Check feature="Receipt Delivery for virtual cards"></Check>
+                    <Check feature="Analytics, insights, reports and analysis"></Check>
                   </div>
                 </div>
                 <div className="home-button4">
@@ -628,12 +626,12 @@ const Home = (props) => {
                 <div className="home-check-list06">
                   <div className="home-check-list07">
                     <div className="home-check-list08">
-                      <Check Feature="Your own Merchant channel in the Receipt Koala app"></Check>
-                      <Check Feature="Digital stampcards"></Check>
-                      <Check Feature="Coupons"></Check>
-                      <Check Feature="Rewards"></Check>
-                      <Check Feature="Feedback / polls on digital receipts"></Check>
-                      <Check Feature="Analytics, insights, reports and analysis"></Check>
+                      <Check feature="Your own Merchant channel in the Receipt Koala app"></Check>
+                      <Check feature="Digital stampcards"></Check>
+                      <Check feature="Coupons"></Check>
+                      <Check feature="Rewards"></Check>
+                      <Check feature="Feedback / polls on digital receipts"></Check>
+                      <Check feature="Analytics, insights, reports and analysis"></Check>
                     </div>
                   </div>
                 </div>
@@ -662,10 +660,10 @@ const Home = (props) => {
               <div className="home-bottom5">
                 <div className="home-check-list09">
                   <div className="home-check-list10">
-                    <Check Feature="Integrations to Customer Data Platforms"></Check>
-                    <Check Feature="Receipt API for Mercahnt own applications and system"></Check>
-                    <Check Feature="Digital loyalty &amp; employee cards in Koala app"></Check>
-                    <Check Feature="Analytics, insights, reports and analysis"></Check>
+                    <Check feature="Integrations to Customer Data Platforms"></Check>
+                    <Check feature="Receipt API for Mercahnt own applications and system"></Check>
+                    <Check feature="Digital loyalty &amp; employee cards in Koala app"></Check>
+                    <Check feature="Analytics, insights, reports and analysis"></Check>
                   </div>
                 </div>
                 <div className="home-button6">
@@ -744,21 +742,21 @@ const Home = (props) => {
             <TestimonialCard1
               name="Jane Smith"
               quote="&quot;Receipt Koala has completely changed my shopping routine. With their e-receipts, I no longer have to deal with stacks of paper cluttering my wallet. It's not just convenient; it's eco-friendly. Plus, the personalized coupons are a nice bonus!&quot;"
-              picture_src="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
+              pictureSrc="https://images.unsplash.com/photo-1557053910-d9eadeed1c58?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
               rootClassName="rootClassName2"
             ></TestimonialCard1>
             <TestimonialCard1 rootClassName="rootClassName"></TestimonialCard1>
             <TestimonialCard1
               name="Michael Johnson"
               quote="&quot;As an environmentally conscious shopper, I was thrilled to switch to e-receipts with Receipt Koala. The app is intuitive, and I appreciate the personalized offers. It's not just about saving trees; it's about reducing carbon emissions too. I highly recommend it!&quot;"
-              picture_src="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
+              pictureSrc="https://images.unsplash.com/photo-1531746020798-e6953c6e8e04?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHdvbWFuJTIwcG9ydHJhaXR8ZW58MHx8fHwxNjI2NDUxOTgy&amp;ixlib=rb-1.2.1&amp;h=1200"
               rootClassName="rootClassName1"
             ></TestimonialCard1>
           </div>
         </div>
       </div>
       <div className="home-faq">
-        <div className="home-content7">
+        <div id="FAQ" className="home-content7">
           <div className="home-header5">
             <div className="home-tag2">
               <span className="home-text120">

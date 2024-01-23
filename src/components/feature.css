@@ -54,7 +54,7 @@
     line-height: 24px;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 390px) {
   .feature-feature {
     padding-top: 0px;
     padding-bottom: 0px;

@@ -10,19 +10,19 @@ const Check = (props) => {
       <svg viewBox="0 0 1024 1024" className="check-icon">
         <path d="M384 690l452-452 60 60-512 512-238-238 60-60z"></path>
       </svg>
-      <span className="check-text">{props.Feature}</span>
+      <span className="check-text">{props.feature}</span>
     </div>
   )
 }
 
 Check.defaultProps = {
   rootClassName: '',
-  Feature: 'Real-time receipt delivery',
+  feature: 'Real-time receipt delivery',
 }
 
 Check.propTypes = {
   rootClassName: PropTypes.string,
-  Feature: PropTypes.string,
+  feature: PropTypes.string,
 }
 
 export default Check

@@ -38,7 +38,7 @@
   display: contents;
 }
 .navbar-finbest {
-  width: 83px;
+  width: 79px;
   height: 79px;
   text-decoration: none;
 }
@@ -55,26 +55,44 @@
 .navbar-link {
   color: #ffffff;
   font-size: 17px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-transform: uppercase;
+  text-decoration: none;
 }
 .navbar-link1 {
   color: #ffffff;
   font-size: 17px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-transform: uppercase;
+  text-decoration: none;
 }
 .navbar-link2 {
   color: #ffffff;
   font-size: 17px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-transform: uppercase;
+  text-decoration: none;
 }
 .navbar-link3 {
   color: #ffffff;
   font-size: 17px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar-link4 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar-link5 {
+  color: #ffffff;
+  font-size: 17px;
+  font-family: "Poppins";
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .navbar-quick-actions {
   gap: var(--dl-space-space-oneandhalfunits);
@@ -86,7 +104,7 @@
 .navbar-log-in {
   color: #ffffff;
   font-size: 17px;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   text-transform: uppercase;
 }
 .navbar-navlink1 {
@@ -117,7 +135,7 @@
   color: #ffffff;
   font-size: 17px;
   font-style: normal;
-  font-family: "Montserrat";
+  font-family: "Poppins";
   font-weight: 500;
   text-transform: uppercase;
 }
@@ -229,6 +247,32 @@
 .navbar-root-class-name {
   max-width: 100%;
 }
+@media(max-width: 1600px) {
+  .navbar-image {
+    width: 127px;
+    height: 120px;
+  }
+  .navbar-btn {
+    background-color: #55c185;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  .navbar-text {
+    color: #ffffff;
+  }
+  .navbar-btn1 {
+    background-color: #55c185;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+  }
+  .navbar-text1 {
+    color: #ffffff;
+  }
+}
 @media(max-width: 1200px) {
   .navbar-link {
     font-size: 17px;
@@ -240,6 +284,12 @@
     font-size: 17px;
   }
   .navbar-link3 {
+    font-size: 17px;
+  }
+  .navbar-link4 {
+    font-size: 17px;
+  }
+  .navbar-link5 {
     font-size: 17px;
   }
   .navbar-log-in {
@@ -283,5 +333,10 @@
     padding-left: var(--dl-space-space-oneandhalfunits);
     padding-right: var(--dl-space-space-oneandhalfunits);
     padding-bottom: var(--dl-space-space-twounits);
+  }
+}
+@media(max-width: 390px) {
+  .navbar-finbest {
+    width: 79px;
   }
 }

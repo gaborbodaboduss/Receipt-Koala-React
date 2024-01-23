@@ -44,7 +44,7 @@
   color: var(--dl-color-gray-white);
   text-align: center;
 }
-@media(max-width: 479px) {
+@media(max-width: 390px) {
   .gallery-card32-text {
     align-self: center;
     margin-bottom: var(--dl-space-space-unit);

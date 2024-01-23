@@ -7,21 +7,21 @@ import './highlight.css'
 const Highlight = (props) => {
   return (
     <div className="highlight-highlight">
-      <span className="highlight-text">{props.Title}</span>
-      <span className="highlight-text1">{props.Description}</span>
+      <span className="highlight-text">{props.title}</span>
+      <span className="highlight-text1">{props.description}</span>
     </div>
   )
 }
 
 Highlight.defaultProps = {
-  Description:
+  description:
     'Sed do eiusmod tempor incididunt ut labore et dolore magna aliquat enim ad minim veniam, quis nostrud',
-  Title: 'Everything you get with Receipt Koala',
+  title: 'Everything you get with Receipt Koala',
 }
 
 Highlight.propTypes = {
-  Description: PropTypes.string,
-  Title: PropTypes.string,
+  description: PropTypes.string,
+  title: PropTypes.string,
 }
 
 export default Highlight

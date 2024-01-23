@@ -7,24 +7,24 @@ import './announcement.css'
 const Announcement = (props) => {
   return (
     <div className={`announcement-announcement ${props.rootClassName} `}>
-      <span className="announcement-title">{props.Title}</span>
+      <span className="announcement-title">{props.title}</span>
       <div className="announcement-button">
-        <span className="announcement-button-text">{props.Button}</span>
+        <span className="announcement-button-text">{props.button}</span>
       </div>
     </div>
   )
 }
 
 Announcement.defaultProps = {
-  Title: 'We updated our Terms and Conditions.\n',
+  title: 'We updated our Terms and Conditions.\n',
   rootClassName: '',
-  Button: 'See now ->',
+  button: 'See now ->',
 }
 
 Announcement.propTypes = {
-  Title: PropTypes.string,
+  title: PropTypes.string,
   rootClassName: PropTypes.string,
-  Button: PropTypes.string,
+  button: PropTypes.string,
 }
 
 export default Announcement

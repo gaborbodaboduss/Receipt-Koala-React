@@ -8,8 +8,8 @@ const Social = (props) => {
   return (
     <div className={`social-social ${props.rootClassName} `}>
       <img
-        alt={props.Insider_alt}
-        src={props.Insider_src}
+        alt={props.insiderAlt}
+        src={props.insiderSrc}
         className="social-insider"
       />
     </div>
@@ -17,14 +17,14 @@ const Social = (props) => {
 }
 
 Social.defaultProps = {
-  Insider_alt: 'pastedImage',
-  Insider_src: '/pastedimage-9nha.svg',
+  insiderAlt: 'pastedImage',
+  insiderSrc: '/pastedimage-9nha.svg',
   rootClassName: '',
 }
 
 Social.propTypes = {
-  Insider_alt: PropTypes.string,
-  Insider_src: PropTypes.string,
+  insiderAlt: PropTypes.string,
+  insiderSrc: PropTypes.string,
   rootClassName: PropTypes.string,
 }
 

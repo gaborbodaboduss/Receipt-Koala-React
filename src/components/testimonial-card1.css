@@ -21,10 +21,12 @@
 .testimonial-card1-text {
   color: var(--dl-color-gray-500);
   text-align: center;
+  font-family: "Poppins";
   margin-bottom: var(--dl-space-space-threeunits);
 }
 .testimonial-card1-text1 {
   font-size: 1.5rem;
+  font-family: "Poppins";
   font-weight: 300;
   margin-bottom: var(--dl-space-space-halfunit);
 }
@@ -48,7 +50,7 @@
     padding-right: var(--dl-space-space-twounits);
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 390px) {
   .testimonial-card1-testimonial-card {
     padding-top: var(--dl-space-space-twounits);
     padding-left: var(--dl-space-space-unit);

@@ -62,7 +62,7 @@
     position: 0px;
   }
 }
-@media(max-width: 479px) {
+@media(max-width: 390px) {
   .gallery-card31-text {
     align-self: center;
     margin-bottom: var(--dl-space-space-unit);

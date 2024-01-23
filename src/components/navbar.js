@@ -14,25 +14,31 @@ const Navbar = (props) => {
           <div className="navbar-branding">
             <Link to="/" className="navbar-navlink">
               <img
-                alt={props.Branding_alt}
-                src={props.Branding_src}
+                alt={props.brandingAlt}
+                src={props.brandingSrc}
                 className="navbar-finbest"
               />
             </Link>
           </div>
           <div className="navbar-links">
-            <Link to="/" className="navbar-link link">
-              {props.Link_1}
-            </Link>
-            <Link to="/" className="navbar-link1 link">
-              {props.Link_2}
-            </Link>
-            <Link to="/" className="navbar-link2 link">
-              {props.Link_3}
-            </Link>
-            <Link to="/" className="navbar-link3 link">
-              {props.Link_4}
-            </Link>
+            <a href="#Features" className="navbar-link link">
+              {props.link1}
+            </a>
+            <a href="#Steps" className="navbar-link1 link">
+              {props.link2}
+            </a>
+            <a href="#Pricing" className="navbar-link2 link">
+              {props.link3}
+            </a>
+            <a href="#Contact" className="navbar-link3 link">
+              {props.link4}
+            </a>
+            <a href="#Demo" className="navbar-link4 link">
+              {props.link5}
+            </a>
+            <a href="#FAQ" className="navbar-link5 link">
+              {props.link6}
+            </a>
           </div>
         </div>
         <div className="navbar-quick-actions">
@@ -46,8 +52,8 @@ const Navbar = (props) => {
           </Link>
           <img
             id="open-mobile-menu"
-            alt={props.pastedImage_alt}
-            src={props.pastedImage_src}
+            alt={props.pastedImageAlt}
+            src={props.pastedImageSrc}
             className="navbar-hamburger-menu"
           />
         </div>
@@ -55,8 +61,8 @@ const Navbar = (props) => {
       <div id="mobile-menu" className="navbar-mobile">
         <div className="navbar-top">
           <img
-            alt={props.image_alt}
-            src={props.image_src}
+            alt={props.imageAlt}
+            src={props.imageSrc}
             className="navbar-image"
           />
           <svg
@@ -133,43 +139,47 @@ const Navbar = (props) => {
 }
 
 Navbar.defaultProps = {
-  Link_3: 'Prices',
+  link3: 'Prices',
   text1: 'Features',
   text12: 'Prices',
-  Link_4: 'Contact',
-  Branding_src: '/receipt%20koala-4%20final-200h.png',
-  Link_1: 'Features',
+  link4: 'Contact',
+  brandingSrc: '/receipt%20koala-4%20final-200h.png',
+  link1: 'Features',
   text131: 'Log in',
-  image_alt: 'image',
-  pastedImage_src: '/pastedimage-8o98.svg',
+  imageAlt: 'image',
+  pastedImageSrc: '/pastedimage-8o98.svg',
   text1311: 'Sign up',
   text13: 'Contact',
-  Link_2: 'How it works',
-  pastedImage_alt: 'pastedImage',
-  image_src: '/pastedimage-cx4wqj.svg',
-  Branding_alt: 'pastedImage',
+  link2: 'How it works',
+  pastedImageAlt: 'pastedImage',
+  imageSrc: '/receipt%20koala-4%20final-200h.png',
+  brandingAlt: 'pastedImage',
   text11: 'How it works',
   rootClassName: '',
+  link5: 'Demo',
+  link6: 'FAQ',
 }
 
 Navbar.propTypes = {
-  Link_3: PropTypes.string,
+  link3: PropTypes.string,
   text1: PropTypes.string,
   text12: PropTypes.string,
-  Link_4: PropTypes.string,
-  Branding_src: PropTypes.string,
-  Link_1: PropTypes.string,
+  link4: PropTypes.string,
+  brandingSrc: PropTypes.string,
+  link1: PropTypes.string,
   text131: PropTypes.string,
-  image_alt: PropTypes.string,
-  pastedImage_src: PropTypes.string,
+  imageAlt: PropTypes.string,
+  pastedImageSrc: PropTypes.string,
   text1311: PropTypes.string,
   text13: PropTypes.string,
-  Link_2: PropTypes.string,
-  pastedImage_alt: PropTypes.string,
-  image_src: PropTypes.string,
-  Branding_alt: PropTypes.string,
+  link2: PropTypes.string,
+  pastedImageAlt: PropTypes.string,
+  imageSrc: PropTypes.string,
+  brandingAlt: PropTypes.string,
   text11: PropTypes.string,
   rootClassName: PropTypes.string,
+  link5: PropTypes.string,
+  link6: PropTypes.string,
 }
 
 export default Navbar

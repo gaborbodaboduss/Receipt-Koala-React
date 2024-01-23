@@ -8,8 +8,8 @@ const GalleryCard32 = (props) => {
   return (
     <div className={`gallery-card32-gallery-card ${props.rootClassName} `}>
       <img
-        alt={props.image_alt}
-        src={props.image_src}
+        alt={props.imageAlt}
+        src={props.imageSrc}
         className="gallery-card32-image"
       />
       <div className="gallery-card32-container">
@@ -21,8 +21,8 @@ const GalleryCard32 = (props) => {
 }
 
 GalleryCard32.defaultProps = {
-  image_alt: 'image',
-  image_src:
+  imageAlt: 'image',
+  imageSrc:
     'https://images.unsplash.com/photo-1523755231516-e43fd2e8dca5?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDF8fG1pbmltYWxpc20lMjBjb3VjaHxlbnwwfHx8fDE2MjY0NDg1NTk&ixlib=rb-1.2.1&h=1000',
   rootClassName: '',
   title: 'Project Title',
@@ -30,8 +30,8 @@ GalleryCard32.defaultProps = {
 }
 
 GalleryCard32.propTypes = {
-  image_alt: PropTypes.string,
-  image_src: PropTypes.string,
+  imageAlt: PropTypes.string,
+  imageSrc: PropTypes.string,
   rootClassName: PropTypes.string,
   title: PropTypes.string,
   subtitle: PropTypes.string,

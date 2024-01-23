@@ -22,8 +22,8 @@ const TestimonialCard1 = (props) => {
         <span className="testimonial-card1-text">{props.quote}</span>
         <span className="testimonial-card1-text1">{props.name}</span>
         <img
-          alt={props.picture_alt}
-          src={props.picture_src}
+          alt={props.pictureAlt}
+          src={props.pictureSrc}
           className="testimonial-card1-image"
         />
       </div>
@@ -34,9 +34,9 @@ const TestimonialCard1 = (props) => {
 TestimonialCard1.defaultProps = {
   name: 'Jane Doe',
   rootClassName: '',
-  picture_src:
+  pictureSrc:
     'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&h=1200',
-  picture_alt: 'profile',
+  pictureAlt: 'profile',
   quote:
     '"I\'ve been using Receipt Koala for a while now, and it\'s been fantastic. My business has saved a considerable amount on thermal paper costs, and the integration was seamless. The app is user-friendly, and the insights into customer behavior are invaluable for our marketing efforts."',
   role: 'SOFTWARE ENGINEER',
@@ -45,8 +45,8 @@ TestimonialCard1.defaultProps = {
 TestimonialCard1.propTypes = {
   name: PropTypes.string,
   rootClassName: PropTypes.string,
-  picture_src: PropTypes.string,
-  picture_alt: PropTypes.string,
+  pictureSrc: PropTypes.string,
+  pictureAlt: PropTypes.string,
   quote: PropTypes.string,
   role: PropTypes.string,
 }

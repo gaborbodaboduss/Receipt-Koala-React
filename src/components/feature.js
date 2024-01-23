@@ -8,32 +8,32 @@ const Feature = (props) => {
   return (
     <div className={`feature-feature ${props.rootClassName} `}>
       <img
-        alt={props.Thumbnail_alt}
-        src={props.Thumbnail}
+        alt={props.thumbnailAlt}
+        src={props.thumbnail}
         className="feature-image"
       />
       <div className="feature-content">
-        <span className="feature-title">{props.Title}</span>
-        <span className="feature-description">{props.Description}</span>
+        <span className="feature-title">{props.title}</span>
+        <span className="feature-description">{props.description}</span>
       </div>
     </div>
   )
 }
 
 Feature.defaultProps = {
-  Title: 'ECO-Friendly',
-  Thumbnail_alt: 'image',
-  Thumbnail: '/vector.svg',
+  title: 'ECO-Friendly',
+  thumbnailAlt: 'image',
+  thumbnail: '/vector.svg',
   rootClassName: '',
-  Description: 'Ending unnecessary paper use and logging',
+  description: 'Ending unnecessary paper use and logging',
 }
 
 Feature.propTypes = {
-  Title: PropTypes.string,
-  Thumbnail_alt: PropTypes.string,
-  Thumbnail: PropTypes.string,
+  title: PropTypes.string,
+  thumbnailAlt: PropTypes.string,
+  thumbnail: PropTypes.string,
   rootClassName: PropTypes.string,
-  Description: PropTypes.string,
+  description: PropTypes.string,
 }
 
 export default Feature
