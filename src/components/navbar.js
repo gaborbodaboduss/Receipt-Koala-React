@@ -145,6 +145,7 @@ Navbar.defaultProps = {
   link4: 'Contact',
   brandingSrc: '/receipt%20koala-4%20final-200h.png',
   link1: 'Features',
+  link5: 'Demo',
   text131: 'Log in',
   imageAlt: 'image',
   pastedImageSrc: '/pastedimage-8o98.svg',
@@ -156,7 +157,6 @@ Navbar.defaultProps = {
   brandingAlt: 'pastedImage',
   text11: 'How it works',
   rootClassName: '',
-  link5: 'Demo',
   link6: 'FAQ',
 }
 
@@ -167,6 +167,7 @@ Navbar.propTypes = {
   link4: PropTypes.string,
   brandingSrc: PropTypes.string,
   link1: PropTypes.string,
+  link5: PropTypes.string,
   text131: PropTypes.string,
   imageAlt: PropTypes.string,
   pastedImageSrc: PropTypes.string,
@@ -178,7 +179,6 @@ Navbar.propTypes = {
   brandingAlt: PropTypes.string,
   text11: PropTypes.string,
   rootClassName: PropTypes.string,
-  link5: PropTypes.string,
   link6: PropTypes.string,
 }
 
